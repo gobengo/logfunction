@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2015.core",
+      "esnext.asynciterable",
+      "es2017",
+      "es2017.object",
+      "es2015", "es2016", "es2017", "dom"
+    ],
+
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "preserveSymlinks": true,
+    "pretty": true,
+    "removeComments": false,
+    "sourceMap": true,
+
+    "moduleResolution": "node",
+    "module":"es2015",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "declarationDir": "dist/types",
+
+    "strictNullChecks": true,
+    "target": "es5",
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
+    "types": ["node"],
+    "watch": false,
+    "jsx": "react",
+    "declaration": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./src/@types/*"]
+    }
+  },
+  "exclude": ["./node_modules", "./lib", "./dist"]
+}
