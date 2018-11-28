@@ -30,7 +30,7 @@
     "sourceMap": true,
 
     "moduleResolution": "node",
-    "module":"es2015",
+    "module":"commonjs",
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
