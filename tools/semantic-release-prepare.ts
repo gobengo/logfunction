@@ -1,10 +1,11 @@
-const path = require("path")
-const { fork } = require("child_process")
-const colors = require("colors")
+import * as path from "path"
+import { fork } from "child_process"
+import * as colors from "colors"
 
-const { readFileSync, writeFileSync } = require("fs")
+import { readFileSync, writeFileSync } from "fs"
+
 const pkg = JSON.parse(
-  readFileSync(path.resolve(__dirname, "..", "package.json"))
+  readFileSync(path.resolve(__dirname, "..", "package.json"), "utf8")
 )
 
 pkg.scripts.prepush = "npm run test:prod && npm run build"

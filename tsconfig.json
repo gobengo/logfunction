@@ -48,5 +48,5 @@
       "*": ["./src/@types/*"]
     }
   },
-  "exclude": ["./node_modules", "./lib", "./dist"]
+  "exclude": ["rollup.config.ts", "./node_modules", "./lib", "./dist"]
 }
